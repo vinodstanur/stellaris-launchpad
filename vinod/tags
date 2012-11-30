@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL_BUTTONS	buttons.h	48;"	d
+BUTTONS_GPIO_BASE	buttons.h	42;"	d
+BUTTONS_GPIO_PERIPH	buttons.h	41;"	d
+BUTTON_PRESSED	buttons.h	55;"	d
+BUTTON_RELEASED	buttons.h	58;"	d
+ButtonsInit	buttons.c	/^ButtonsInit(void)$/;"	f
+ButtonsPoll	buttons.c	/^ButtonsPoll(unsigned char *pucDelta, unsigned char *pucRawState)$/;"	f
+FaultISR	startup_gcc.c	/^FaultISR(void)$/;"	f	file:
+IntDefaultHandler	startup_gcc.c	/^IntDefaultHandler(void)$/;"	f	file:
+LEFT_BUTTON	buttons.h	45;"	d
+NUM_BUTTONS	buttons.h	44;"	d
+NmiSR	startup_gcc.c	/^NmiSR(void)$/;"	f	file:
+RIGHT_BUTTON	buttons.h	46;"	d
+ResetISR	startup_gcc.c	/^ResetISR(void)$/;"	f
+SOURCE	Makefile	/^SOURCE = blinky.c$/;"	m
+__BUTTONS_H__	buttons.h	26;"	d
+g_pfnVectors	startup_gcc.c	/^void (* const g_pfnVectors[])(void) =$/;"	v
+g_ucButtonStates	buttons.c	/^static unsigned char g_ucButtonStates = ALL_BUTTONS;$/;"	v	file:
+main	blinky.c	/^int main(void)$/;"	f
+pulStack	startup_gcc.c	/^static unsigned long pulStack[64];$/;"	v	file:

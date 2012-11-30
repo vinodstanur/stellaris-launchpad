@@ -1,0 +1,20 @@
+11:35:39 **** Rebuild of configuration Debug for project template ****
+Info: Internal Builder is used for build
+arm-none-eabi-gcc -DPART_LM4F120H5QR -DARM_MATH_CM4 -DTARGET_IS_BLIZZARD_RA1 -I/home/vinod/stellaris -O0 -Wall -c -fmessage-length=0 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -o main.o ../main.c 
+In file included from ../main.c:42:0:
+/home/vinod/stellaris/inc/lm4f120h5qr.h:2031:0: warning: "GPIO_LOCK_KEY" redefined [enabled by default]
+/home/vinod/stellaris/inc/hw_gpio.h:116:0: note: this is the location of the previous definition
+arm-none-eabi-gcc -DPART_LM4F120H5QR -DARM_MATH_CM4 -DTARGET_IS_BLIZZARD_RA1 -I/home/vinod/stellaris -O0 -Wall -c -fmessage-length=0 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -ffunction-sections -fdata-sections -o LM4F_startup.o ../LM4F_startup.c 
+arm-none-eabi-ld -L/home/vinod/stellaris/driverlib/gcc-cm4f --static --gc-sections -T../LM4F.ld -o template.elf main.o LM4F_startup.o -ldriver-cm4f 
+arm-none-eabi-objcopy -O binary template.elf template.bin 
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template
+Info: Nothing to build for template

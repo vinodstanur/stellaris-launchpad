@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FaultISR	startup_gcc.c	/^FaultISR(void)$/;"	f	file:
+InitConsole	differential.c	/^InitConsole(void)$/;"	f
+InitConsole	single_ended.c	/^InitConsole(void)$/;"	f
+InitConsole	temperature_sensor.c	/^InitConsole(void)$/;"	f
+IntDefaultHandler	startup_gcc.c	/^IntDefaultHandler(void)$/;"	f	file:
+NmiSR	startup_gcc.c	/^NmiSR(void)$/;"	f	file:
+ResetISR	startup_gcc.c	/^ResetISR(void)$/;"	f
+SOURCE	Makefile	/^SOURCE = single_ended.c$/;"	m
+g_pfnVectors	startup_gcc.c	/^void (* const g_pfnVectors[])(void) =$/;"	v
+main	differential.c	/^main(void)$/;"	f
+main	single_ended.c	/^main(void)$/;"	f
+main	temperature_sensor.c	/^main(void)$/;"	f
+obj1	Makefile	/^obj1 = single_ended.o$/;"	m
+pulStack	startup_gcc.c	/^static unsigned long pulStack[64];$/;"	v	file:
