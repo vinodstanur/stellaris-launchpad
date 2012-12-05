@@ -1,1 +1,5 @@
-Info: Nothing to build for template
+01:26:37 **** Clean-only build of configuration Debug for project template ****
+rm -rf template.elf LM4F_startup.d LM4F_startup.o main.o main.d 
+
+01:26:37 Build Finished (took 63ms)
+

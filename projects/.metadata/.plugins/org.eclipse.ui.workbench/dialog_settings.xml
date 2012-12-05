@@ -28,4 +28,6 @@
 		<item value="-134" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
+	<section name="ImportExportAction">
+	</section>
 </section>
