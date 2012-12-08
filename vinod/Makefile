@@ -1,4 +1,4 @@
-SOURCE = lcd
+SOURCE = main
 
 blinky.bin:$(SOURCE).c
 		arm-none-eabi-gcc startup_gcc.c $(SOURCE).c -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -fgnu89-inline -Os -ffunction-sections -fdata-sections -MD -std=c99 -Wall -pedantic -DPART_LM4F120H5QR -c -g -I/home/vinod/stellaris -I./ -DTARGET_IS_BLIZZARD_RA1
